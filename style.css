@@ -21,3 +21,38 @@
 	color: hsl(208, 11%, 55%);
 	border-radius: 5px;
 }
+
+.main {
+	width:70%;
+	display: inline-block;
+}
+
+.right {
+	width:30%;
+}
+
+.circle {
+ float: left;
+ /*border-radius: 200px 200px 200px 200px;
+ -moz-border-radius: 200px 200px 200px 200px;
+ -webkit-border-radius: 200px 200px 200px 200px;
+ */border: 1px solid #000000;
+border-radius: 100%;
+height: 98px;
+width: 87px;
+margin: 14px;
+}
+
+.node {
+	padding: 45px;
+	margin: 5px;
+}
+
+.sm-circle {
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: 1px solid black;
+    display: inline-block;
+}	
